@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EzFlights</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+           <a href="/"> <img src="img/logo.png" alt="Our Logo" class="logo"></a>
+           <nav class="navigation">
+               <ul class="list">
+                   <li><a href="explore.html">Explore</a></li>
+                   <li><a href="about.html">About us</a></li>
+               </ul>
+           </nav>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="wrapper1">
+            <h1 class="h1">Find the cheapest tickets</h1>
+            <h2 class="h2">The best option to buy air tickets</h2>
+            <bold class="bold">So....Where are you heading to?</bold>
+            <div class="forms">
+                <input type="radio" id="one" name="inputs" value="oneway"> 
+                <label for="one" class="choise">One-way </label>
+                <input type="radio" id="round"  name="inputs" value="round">
+                <label for="round" class="choise">Round trip </label>
+                <br>
+                <label for="from" class="labels">From</label>
+                <input type="text" id="from" class="destination">
+                <label for="where" class="labels">To</label>
+                <input type="text" id="where" class="destination">
+                <label for="depart" class="labels">Departure Date</label>
+                <input type="date" class="destination" id="depart">
+                <label for="return" class="labels">Return Date</label>
+                <input type="date" class="destination" id="return">
+                <label for="cabin" class="labels">Cabin</label>
+                <select name="" id="cabin" class="destination">                   
+                    <option value="">Economy</option>
+                    <option value="">Business</option>
+                    <option value="" >1st Class</option>
+                </select>
+                <a href="#" class="destination button" >Find the tickets</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="main">
+        <div class="wrapper3">
+            <h3 class="h3">Most Popular Tours</h3>
+            <div class="block">
+                <a href="#"><img src="img/spain.png" alt="Trip to Spain"></a>
+                <span class="firstSpan"> Tour to Spain only today for $699 </span>
+
+                <a href="#"><img src="img/uk.png" alt="Trip to the UK"></a>
+                <span class="secondSpan"> Tour to London only today for $849 </span>
+
+                <a href="#" class="last"><img src="img/malaysia.png" alt="Trip to Malaysia"></a>
+                <span class="thirdSpan"> Tour to Malaysia only today for $499 </span>
+
+            </div>
+        </div>
+    </main>
+
+    <div class="feedback">
+        <div class="wrapper4">
+            <div>
+            <h3 class="h3">Our customers feedbacks</h3>
+            <div class="feedback1">
+                <img src="img/feedback.png" alt="picure of a person">
+                <p>EzFlights is the best website for finding good flight deals. I have been using EzFlights for around 10 years. Every prediction they publish has worked out for me, even I have tried to look at the airline website or other search engines, and EzFlights always has the best deals. For flights, it will always be my first choice! Great place to start your search for flights and set up alerts!</p>
+            </div>
+            <a class="prev" id="prev" >&#10094;</a>
+            <a class="next" id="next">&#10095;</a>
+            <div class="feedback2">
+                    <img src="img/feedback2.png" alt="picure of a person">
+                    <p>Navigation is easy enough and I’m confident the fares are competitive to lowest give the access to other flight database pricing.
+
+                            I’d like to see more flexibility in trip planning. As an example, I’d like to pick a number of days and set an alert for when a great price is available for a trip of that length. Right now I have to pick an arbitrary date and let an alert run off that.
+                            
+                            </p>
+            </div>
+            <div class="feedback3">
+                    <img src="img/feedback3.png" alt="picure of a person">
+                    <p>Easy to use, I enjoy the options to narrow my search by flight times, stops, etc. I was able to sort by price and make different edits easily. EzFlights is great because at the same time it allows you to open other search programs too, like Expedia.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="wrapper5">
+            <p>
+                This web site was created to fulfill Web Technologies module’s requirements and does not represent actual company or service.
+            </p>
+        </div>
+    </footer>
+    
+   
+    <script src="script/script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,557 @@
+/***********************   Header   ****************************/
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 2.45em;
+}
+
+.wrapper{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 60px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list li{
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 5px 0px 10px;
+}
+
+.list li a {
+    text-decoration: none;
+    color:#005FB2;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+
+}
+
+
+/***********************   Banner   ****************************/
+
+.banner{
+    background-image: url(img/banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.wrapper1{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.h1, .h2{
+    text-align: center;
+    font-family: 'Red Hat Text', sans-serif;
+    color:white;
+    margin: 0;
+    padding-top:10px; 
+    font-weight: 600;
+
+}
+
+.h1{
+    margin-top: 3em;;
+}
+
+.bold{
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-size: 2.45em;
+    color:white;
+    margin-top: 50px;
+}
+
+.forms{
+    border-radius: 5px;
+    background-color: #02122c;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 12em;
+    justify-content: space-around;
+
+}
+
+.choise{
+    font-size: 1.25em;
+    color:white;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#one , #round{
+    margin-top: 20px;;
+}
+
+.destination{
+    align-self: center;
+    margin: 0;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.labels{
+    color: white;
+    font-size: 0.8em;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 90px;;
+}
+
+.button{
+    align-self: flex-end;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color:white;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #006a61;
+    padding: 5px 10px 0px 10px;
+}
+
+/***********************   Main   ****************************/
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wrapper3{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.h3{
+    font-size: 1.5em;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #111236;
+    display: flex;
+    text-transform: capitalize;
+}
+
+.block{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.block a:first-child{
+    margin: auto;
+}
+
+.last{
+    margin-left: 1em;
+}
+
+.block a img{
+    border-radius: 5px;
+}
+
+
+
+.firstSpan{
+    width: 500px;
+    position: absolute;
+    text-align: center;
+    font-size: 1em;
+    color: #ff7b59;
+    padding: 30px 0px;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #02122c;
+    left: 444px;
+    top: 1040px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: none;
+}
+
+.secondSpan{
+    width: 250px;
+    position: absolute;
+    text-align: center;
+    font-size: 1em;
+    color: #ff7b59;
+    padding: 30px 0px;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #02122c;
+    left: 1102px;
+    top: 1040px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: none;
+}
+
+.thirdSpan{
+    width: 250px;
+    position: absolute;
+    text-align: center;
+    font-size: 1em;
+    color: #ff7b59;
+    padding: 30px 0px;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #02122c;
+    right: 285px;
+    top: 1040px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: none;
+}
+
+.block a:hover + .firstSpan{
+    display: block;
+}
+
+.block a:hover + .secondSpan{
+    display: block;
+}
+
+
+.block a:hover + .thirdSpan{
+    display: block;
+}
+/***********************   Feedback   ****************************/
+
+.feedback {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.wrapper4{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.feedback1, .feedback2, .feedback3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback1 p {
+    font-size: 1.25em;
+    align-self: center;
+    margin-left: 50px;;
+    background-color: #111236;
+    color: white;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+
+.feedback2 p {
+    font-size: 1.25em;
+    align-self: center;
+    margin-left: 50px;;
+    background-color: #111236;
+    color: white;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+
+.feedback3 p {
+    font-size: 1.25em;
+    align-self: center;
+    margin-left: 50px;;
+    background-color: #111236;
+    color: white;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+
+.feedback2, .feedback3{
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 143%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #02122c;
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .prev{
+      left: 210px;
+  }
+
+  .next {
+    right: 210px;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color:rgba(132, 47, 47, 0.8);
+  }
+/***********************   Footer   ****************************/
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #111236;
+}
+
+.wrapper5{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper5 p {
+    font-size: 1.75em;
+    color: #ff7b59;
+    padding: 30px 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+/***********************   Banner for Explore Page  ****************************/
+
+.banner1{
+    background-image: url(img/banner2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bold1{
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-size: 2.45em;
+    color:white;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.block2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.block2 a img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 500px;
+    width: 450px;
+    margin-left: 20px;
+}
+
+.block2 a img:hover{
+    filter: blur(3px);
+    transition: 0.5s;
+}
+
+
+.span1, .span2, .span3{
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    color:white;
+    background-color: darkgray;
+    visibility: hidden;
+}
+
+
+
+
+.span1{
+    position: absolute;
+    left: 474px;
+    bottom: -100px;
+}
+
+.span2 {
+    position: absolute;
+    left: 10;
+    bottom: -100px;
+}
+
+.span3{
+    position: absolute;
+    right: 370px;
+    bottom: -100px;
+}
+
+.visible{
+    visibility: visible;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    color:white;
+    background-color: darkgray;
+    position: absolute;
+    left: 474px;
+    bottom: -100px;
+    border-radius:3px;
+}
+
+.visible2{
+    visibility: visible;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    color:white;
+    background-color: darkgray;
+    position: absolute;
+    right: 820px;
+    bottom: -100px;
+    border-radius:3px;
+}
+
+.visible3{
+    visibility: visible;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    color:white;
+    background-color: darkgray;
+    position: absolute;
+    right: 370px;
+    bottom: -100px;
+    border-radius:3px;
+}
+
+/***********************   Prices for Explore Page  ****************************/
+.prices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.table{
+    align-self: center;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.25em;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #bed4e9;
+  }
+
+
+  /***********************   About Page  ****************************/
+
+  .wrapper6{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height: calc(100vh - 70px)
+}
+
+.wrapper6 p {
+    font-size: 1.25em;
+    align-self: center;
+    margin-left: 50px;;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 0;
+}
+
+
+.spec{
+    margin-right: 950px;
+}
+
+
+.wrapper6 span{
+    font-size: 1.25em;
+    align-self: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+.wrapper6 a{
+    font-size: 1.25em;
+    align-self: center;
+    margin-left: 50px;;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 0;
+    color: crimson;
+    text-decoration: none;
+}
+
+.margin{
+    
+    margin-left: 203px;
+
+}
+
+
+  .footer {
+    height: 180px;
+  }
